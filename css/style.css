@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../img/fundo.jpg");
+    padding: 90px 0;
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    background-color: LightSeaGreen;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+
+.display{
+    display: flex;
+    justify-content: flex-end;
+    width: 93%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: Bisque;
+    color: black;
+    font: normal 3rem serif;
+    overflow: hidden;
+    border: 1px solid Brown;
+    border-radius: 10px;
+}
+
+.cal-bnt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.calculator button{
+    background-color: MediumBlue;
+    color: LightYellow;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid Brown;
+    transition: all ease 0.3s;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    font-size: large;
+}
